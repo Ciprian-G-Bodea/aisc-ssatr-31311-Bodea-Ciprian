@@ -1,0 +1,258 @@
+{
+  "places": [
+    {
+      "tokens": 1,
+      "name": "P0"
+    },
+    {
+      "tokens": 0,
+      "name": "P1"
+    },
+    {
+      "tokens": 0,
+      "name": "P2"
+    },
+    {
+      "tokens": 0,
+      "name": "P3"
+    },
+    {
+      "tokens": 1,
+      "name": "P4"
+    },
+    {
+      "tokens": 0,
+      "name": "P5"
+    },
+    {
+      "tokens": 1,
+      "name": "P6"
+    },
+    {
+      "tokens": 0,
+      "name": "P7"
+    },
+    {
+      "tokens": 0,
+      "name": "P8"
+    },
+    {
+      "tokens": 0,
+      "name": "P9"
+    },
+    {
+      "tokens": 0,
+      "name": "P10"
+    },
+    {
+      "tokens": 0,
+      "name": "P11"
+    },
+    {
+      "tokens": 0,
+      "name": "P12"
+    },
+    {
+      "tokens": 0,
+      "name": "P13"
+    }
+  ],
+  "transitions": [
+    {
+      "previousPlaces": [
+        {
+          "name": "P0"
+        }
+      ],
+      "nextPlaces": [
+        {
+          "name": "P1"
+        },
+        {
+          "name": "P2"
+        }
+      ],
+      "name": "T0"
+    },
+    {
+      "previousPlaces": [
+        {
+          "name": "P1"
+        }
+      ],
+      "nextPlaces": [
+        {
+          "name": "P3"
+        }
+      ],
+      "name": "T1",
+      "time": 1
+    },
+    {
+      "previousPlaces": [
+        {
+          "name": "P3"
+        },
+        {
+          "name": "P4"
+        }
+      ],
+      "nextPlaces": [
+        {
+          "name": "P7"
+        }
+      ],
+      "name": "T3"
+    },
+    {
+      "previousPlaces": [
+        {
+          "name": "P7"
+        },
+        {
+          "name": "P6"
+        }
+      ],
+      "nextPlaces": [
+        {
+          "name": "P9"
+        }
+      ],
+      "name": "T5",
+      "time": 2,
+      "time2": 4
+    },
+    {
+      "previousPlaces": [
+        {
+          "name": "P9"
+        }
+      ],
+      "nextPlaces": [
+        {
+          "name": "P11"
+        },
+        {
+          "name": "P4"
+        },
+        {
+          "name": "P6"
+        }
+      ],
+      "name": "T7",
+      "time": 3,
+      "time2": 4
+    },
+    {
+      "previousPlaces": [
+        {
+          "name": "P11"
+        },
+        {
+          "name": "P12"
+        }
+      ],
+      "nextPlaces": [
+        {
+          "name": "P13"
+        }
+      ],
+      "name": "T9"
+    },
+    {
+      "previousPlaces": [
+        {
+          "name": "P2"
+        }
+      ],
+      "nextPlaces": [
+        {
+          "name": "P5"
+        }
+      ],
+      "name": "T2",
+      "time": 4
+    },
+    {
+      "previousPlaces": [
+        {
+          "name": "P5"
+        },
+        {
+          "name": "P6"
+        }
+      ],
+      "nextPlaces": [
+        {
+          "name": "P8"
+        }
+      ],
+      "name": "T4"
+    },
+    {
+      "previousPlaces": [
+        {
+          "name": "P8"
+        },
+        {
+          "name": "P4"
+        }
+      ],
+      "nextPlaces": [
+        {
+          "name": "P10"
+        }
+      ],
+      "name": "T6",
+      "time": 2,
+      "time2": 5
+    },
+    {
+      "previousPlaces": [
+        {
+          "name": "P10"
+        }
+      ],
+      "nextPlaces": [
+        {
+          "name": "P12"
+        },
+        {
+          "name": "P6"
+        },
+        {
+          "name": "P4"
+        }
+      ],
+      "name": "T8",
+      "time": 2,
+      "time2": 3
+    },
+    {
+      "previousPlaces": [
+        {
+          "name": "P12"
+        }
+      ],
+      "nextPlaces": [
+        {
+          "name": "P13"
+        }
+      ],
+      "name": "T9"
+    },
+    {
+      "previousPlaces": [
+        {
+          "name": "P13"
+        }
+      ],
+      "nextPlaces": [
+        {
+          "name": "end"
+        }
+      ],
+      "name": "T10"
+    }
+  ]
+}
